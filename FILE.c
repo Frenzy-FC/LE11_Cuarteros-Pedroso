@@ -21,6 +21,8 @@ int main () {
 
     fclose(fp);
 
+    printf("\nInformation successfully saved to students.txt\n");
+
     fp = fopen("students.txt", "r");
     if (fp == NULL) {return 1;}
 
@@ -41,3 +43,4 @@ int main () {
 
 
 }
+

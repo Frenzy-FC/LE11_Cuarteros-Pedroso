@@ -4,8 +4,8 @@
 int main () {
 
     FILE *fp;
-    int name[30];
-    int section[30];
+    char name[30];
+    char section[30];
 
     fp = fopen("students.txt", "w");
     if (fp == NULL) {return 1;}
@@ -43,4 +43,5 @@ int main () {
 
 
 }
+
 
